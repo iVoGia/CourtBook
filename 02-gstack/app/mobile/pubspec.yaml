@@ -1,0 +1,42 @@
+name: mobile
+description: Contest mobile app — connects to Express API
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app-logo.png
+  remove_alpha_ios: true
+  macos:
+    generate: true
+  web:
+    generate: true
+    image_path: assets/images/app-logo.png
+    background_color: "#f8faf9"
+    theme_color: "#0d9488"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app-logo.png
+    - assets/images/badminton.jpg
+    - assets/images/mini_football.jpg
+    - assets/images/tennis.jpg
+    - assets/images/placeholder.png

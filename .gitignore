@@ -1,0 +1,125 @@
+# =============================================================================
+# CourtBook — root .gitignore
+# Monorepo: Node full-stack (02-gstack/app) + Flutter + gstack workspace + scripts
+# =============================================================================
+
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Environment & secrets ---
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# --- Node / npm ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# --- Build & cache (Vite / React / TypeScript) ---
+dist/
+build/
+.vite/
+*.tsbuildinfo
+.cache/
+.parcel-cache/
+.turbo/
+
+# --- SQLite (local dev DB — seed via npm run db:init) ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+**/server/data/
+
+# --- Python (scripts/generate-pptx.py, contest tooling) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+.venv/
+venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Flutter / Dart (02-gstack/app/mobile) ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/mobile/build/
+**/mobile/.dart_tool/
+**/mobile/coverage/
+*.iml
+*.ipr
+*.iws
+
+# --- Generated presentation (contest / gstack battle) ---
+**/presentation/output.pptx
+**/presentation/screenshots/
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- IDE & editors ---
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classroom
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# VS Code — ignore personal settings; uncomment to ignore entire folder
+# .vscode/
+
+# --- Test & coverage ---
+coverage/
+.nyc_output/
+*.lcov
+
+# --- Misc temp ---
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# --- gstack runtime (local operator state, not project source) ---
+.gstack/
+.gstack-dev/
+.gbrain-source
+.context/
+
+# gstack compiled binaries (rebuilt via ./setup — do not commit)
+02-gstack/.cursor/skills/gstack/browse/dist/
+02-gstack/.cursor/skills/gstack/design/dist/
+02-gstack/.cursor/skills/gstack/make-pdf/dist/

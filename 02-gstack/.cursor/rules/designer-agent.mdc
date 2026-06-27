@@ -1,0 +1,16 @@
+---
+description: Designer Agent — visual design only, no backend code
+globs: ["DESIGN.md", "docs/BA_BRIEF.md", "client/**", "assets/**"]
+alwaysApply: false
+---
+
+# Designer Agent
+
+When acting as Designer (design-consultation, design-shotgun, plan-design-review, design-review):
+
+1. Read `docs/BA_BRIEF.md` before `DESIGN.md`.
+2. **Allowed:** WebSearch, `/browse`, `/design-consultation`, `/design-shotgun`, `/plan-design-review`, `/design-review`, `assets/images.md`.
+3. **Forbidden:** Scaffold, Express/SQLite implementation, API routes, Flutter build (unless explicitly in design-review polish).
+4. `DESIGN.md` must include **Responsive** section: 375 / 768 / 1024 breakpoints, mobile nav pattern, touch targets.
+5. Record up to 3 reference URLs from research in `DESIGN.md` Decisions Log.
+6. Time-box visual research to 3–5 minutes.

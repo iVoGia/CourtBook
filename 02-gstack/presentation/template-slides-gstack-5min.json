@@ -1,0 +1,62 @@
+{
+  "title": "{PROJECT_NAME}",
+  "subtitle": "Web + API — AI ADAPT BATTLE",
+  "hero_image": "presentation/screenshots/01-dashboard.png",
+  "title_speaker_notes": "Giới thiệu tên project.",
+  "template": "gstack-5min",
+  "slides": [
+    {
+      "id": "product",
+      "layout": "image_hero",
+      "title": "1. Sản phẩm — {PROJECT_NAME}",
+      "bullets": [
+        "Pain: [1 câu]",
+        "MVP web: [feature chính] + API Express + SQLite",
+        "Mobile Flutter: [có/không] — cùng API local"
+      ],
+      "image": "presentation/screenshots/01-dashboard.png",
+      "speaker_notes": "Giới thiệu ngắn app làm gì, ai dùng, demo màn chính. Nhắc responsive + persistence."
+    },
+    {
+      "id": "gstack",
+      "layout": "split",
+      "title": "2. gstack là gì?",
+      "bullets": [
+        "Virtual engineering team — skills như nhân sự thật",
+        "/office-hours — scope MVP",
+        "/design-consultation — design system",
+        "/plan-eng-review — API + DB",
+        "/qa — browser test + screenshots"
+      ],
+      "images": [
+        "presentation/screenshots/02-feature.png"
+      ],
+      "speaker_notes": "gstack = Garry Tan software factory. Không phải framework mới — là bộ skills orchestrate agent như team."
+    },
+    {
+      "id": "custom_gstack",
+      "layout": "split",
+      "title": "3. Custom gstack — Role Council",
+      "bullets": [
+        "BA phân tích đề → BA_BRIEF.md",
+        "Designer search + DESIGN.md responsive",
+        "Eng lock API SQLite → docs đầy đủ",
+        "Build web → QA 375px → Flutter gate (YES/NO)"
+      ],
+      "images": [
+        "presentation/screenshots/03-result.png"
+      ],
+      "speaker_notes": "Team custom thêm lớp BA + Designer kỹ, web responsive bắt buộc, sau web OK hỏi gen Flutter cùng API."
+    },
+    {
+      "id": "demo",
+      "layout": "image_bottom",
+      "title": "Demo live",
+      "bullets": [
+        "localhost:5173 — flow end-to-end, refresh giữ data"
+      ],
+      "image": "presentation/screenshots/03-result.png",
+      "speaker_notes": "Demo live. Cảm ơn!"
+    }
+  ]
+}

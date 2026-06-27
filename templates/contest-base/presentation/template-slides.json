@@ -1,0 +1,66 @@
+{
+  "title": "AI ADAPT BATTLE — Demo Presentation",
+  "subtitle": "{PROJECT_NAME}",
+  "slides": [
+    {
+      "id": "de_bai_pain",
+      "title": "Đề bài & Pain",
+      "bullets": [
+        "Problem: [1 câu mô tả pain point]",
+        "User: [đối tượng người dùng]",
+        "Context: [bối cảnh đề BTC]"
+      ]
+    },
+    {
+      "id": "giai_phap_mvp",
+      "title": "Giải pháp MVP",
+      "bullets": [
+        "[Tính năng 1 — demo được]",
+        "[Tính năng 2 — demo được]",
+        "[Tính năng 3 — demo được]"
+      ]
+    },
+    {
+      "id": "framework",
+      "title": "Framework đã áp dụng",
+      "bullets": [
+        "Bước 1: [lệnh] — [thời gian]",
+        "Bước 2: [lệnh] — [thời gian]",
+        "Bước 3: [lệnh] — [thời gian]",
+        "Bước 4: [lệnh] — [thời gian]"
+      ]
+    },
+    {
+      "id": "kien_truc_demo",
+      "title": "Kiến trúc & Demo",
+      "bullets": [
+        "Stack: [frontend] + [backend]",
+        "Chạy: [lệnh dev]",
+        "Screenshots: xem ảnh bên dưới"
+      ],
+      "screenshots": [
+        "presentation/screenshots/01-dashboard.png",
+        "presentation/screenshots/02-feature.png",
+        "presentation/screenshots/03-result.png"
+      ]
+    },
+    {
+      "id": "ket_qua_60_phut",
+      "title": "Kết quả 60 phút",
+      "bullets": [
+        "Đã hoàn thành: [list deliverables]",
+        "Metrics: [số màn hình, API endpoints, v.v.]",
+        "Demo: [URL local]"
+      ]
+    },
+    {
+      "id": "bai_hoc",
+      "title": "Bài học & Next step",
+      "bullets": [
+        "Lesson 1: [bài học từ framework/process]",
+        "Lesson 2: [bài học từ build]",
+        "Next: [2–3 bước mở rộng nếu có thêm thời gian]"
+      ]
+    }
+  ]
+}

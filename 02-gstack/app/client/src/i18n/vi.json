@@ -1,0 +1,166 @@
+{
+  "app": {
+    "name": "CourtBook",
+    "tagline": "Đặt sân chỉ trong vài giây"
+  },
+  "nav": {
+    "courts": "Sân",
+    "bookings": "Lịch đặt",
+    "profile": "Tài khoản",
+    "logout": "Đăng xuất",
+    "adminBookings": "Quản lý đặt",
+    "adminCourts": "Quản lý sân",
+    "adminSettings": "Cấu hình"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Mật khẩu",
+    "fullName": "Họ và tên",
+    "signIn": "Đăng nhập",
+    "signingIn": "Đang đăng nhập…",
+    "signUp": "Đăng ký",
+    "creating": "Đang tạo tài khoản…",
+    "createAccount": "Tạo tài khoản",
+    "createAccountTitle": "Tạo tài khoản",
+    "createAccountSubtitle": "Bắt đầu đặt sân ngay hôm nay",
+    "noAccount": "Chưa có tài khoản?",
+    "hasAccount": "Đã có tài khoản?",
+    "demoAccounts": "Tài khoản demo",
+    "demoUser": "user@demo.com / demo123 (Người dùng)",
+    "demoAdmin": "admin@demo.com / demo123 (Quản trị)",
+    "loginFailed": "Đăng nhập thất bại",
+    "registerFailed": "Đăng ký thất bại"
+  },
+  "courts": {
+    "title": "Danh sách sân",
+    "subtitle": "Chọn sân và đặt khung giờ",
+    "filterAll": "Tất cả",
+    "filterBadminton": "Cầu lông",
+    "filterFootball": "Bóng đá",
+    "filterTennis": "Tennis",
+    "capacity": "Tối đa {count} người",
+    "perHour": "/giờ",
+    "bookNow": "Đặt sân"
+  },
+  "booking": {
+    "backToCourts": "Quay lại danh sách sân",
+    "loadingCourt": "Đang tải sân…",
+    "perHour": "/ giờ",
+    "stepDate": "1. Chọn ngày",
+    "stepTime": "2. Chọn giờ",
+    "stepDetails": "3. Thông tin đặt sân",
+    "customerName": "Tên khách hàng",
+    "phone": "Số điện thoại",
+    "phonePlaceholder": "09xxxxxxxx",
+    "maxPlayers": "Số người chơi (tối đa {max})",
+    "total": "Tổng cộng",
+    "confirm": "Gửi yêu cầu",
+    "booking": "Đang gửi…",
+    "bookingFailed": "Đặt sân thất bại",
+    "durationHours": "{h} giờ",
+    "submittedPending": "Yêu cầu đã gửi — chờ quản trị viên xác nhận"
+  },
+  "bookings": {
+    "title": "Lịch đặt của tôi",
+    "subtitle": "Lịch sắp tới và đã qua",
+    "upcoming": "Sắp tới",
+    "past": "Đã qua",
+    "emptyTitle": "Chưa có lịch đặt",
+    "emptySubtitle": "Tìm sân và đặt khung giờ đầu tiên",
+    "browseCourts": "Xem danh sách sân",
+    "players": "{count} người chơi",
+    "cancel": "Hủy đặt",
+    "cancelFailed": "Hủy đặt thất bại"
+  },
+  "profile": {
+    "title": "Tài khoản",
+    "subtitle": "Giới thiệu ứng dụng và thông tin của bạn",
+    "introDescription": "Ứng dụng đặt sân thể thao trực tuyến. Xem sân còn trống, gửi yêu cầu đặt, theo dõi lịch sắp tới và hủy đặt theo chính sách 24 giờ.",
+    "accountInfo": "Thông tin tài khoản",
+    "name": "Họ tên",
+    "email": "Email",
+    "role": "Vai trò",
+    "logout": "Đăng xuất"
+  },
+  "roles": {
+    "user": "Người dùng",
+    "admin": "Quản trị"
+  },
+  "sports": {
+    "badminton": "Cầu lông",
+    "mini_football": "Mini football",
+    "tennis": "Tennis"
+  },
+  "status": {
+    "pending": "Chờ xác nhận",
+    "confirmed": "Đã xác nhận",
+    "cancelled": "Đã hủy",
+    "completed": "Hoàn thành"
+  },
+  "admin": {
+    "bookings": {
+      "title": "Quản lý đặt sân",
+      "subtitle": "Lịch sử đặt sân toàn hệ thống",
+      "bookedBy": "Người đặt: {name}",
+      "customer": "Khách: {name} · {phone}",
+      "confirm": "Xác nhận",
+      "reject": "Từ chối",
+      "actionFailed": "Thao tác thất bại"
+    },
+    "courts": {
+      "title": "Quản lý sân",
+      "subtitle": "Thêm, sửa, xóa sân",
+      "add": "Thêm sân",
+      "edit": "Sửa",
+      "delete": "Xóa",
+      "deleteConfirm": "Bạn có chắc muốn xóa sân này?",
+      "name": "Tên sân",
+      "sport": "Loại sân",
+      "capacity": "Sức chứa",
+      "price": "Giá/giờ (VND)",
+      "imageUrl": "URL ảnh",
+      "enabled": "Đang hoạt động",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "saveFailed": "Lưu thất bại",
+      "deleteFailed": "Xóa thất bại"
+    },
+    "settings": {
+      "title": "Cấu hình",
+      "subtitle": "Giờ mở cửa của cơ sở",
+      "openTime": "Giờ mở cửa",
+      "closeTime": "Giờ đóng cửa",
+      "save": "Lưu cấu hình",
+      "saved": "Đã lưu cấu hình",
+      "saveFailed": "Lưu thất bại"
+    }
+  },
+  "common": {
+    "requestFailed": "Yêu cầu thất bại",
+    "genericError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "saving": "Đang lưu…"
+  },
+  "errors": {
+    "AUTH_FIELDS_REQUIRED": "Vui lòng nhập email, mật khẩu và họ tên",
+    "AUTH_REGISTER_FIELDS_REQUIRED": "Vui lòng nhập email, mật khẩu và họ tên",
+    "AUTH_LOGIN_FIELDS_REQUIRED": "Vui lòng nhập email và mật khẩu",
+    "AUTH_EMAIL_EXISTS": "Email đã được đăng ký",
+    "AUTH_INVALID": "Email hoặc mật khẩu không đúng",
+    "AUTH_REQUIRED": "Vui lòng đăng nhập",
+    "AUTH_SESSION_INVALID": "Phiên đăng nhập không hợp lệ hoặc đã hết hạn",
+    "ADMIN_FORBIDDEN": "Bạn không có quyền quản trị",
+    "COURT_NOT_FOUND": "Không tìm thấy sân",
+    "COURT_HAS_BOOKINGS": "Không thể xóa sân đang có lịch đặt",
+    "DATE_REQUIRED": "Vui lòng chọn ngày (YYYY-MM-DD)",
+    "DURATION_INVALID": "Thời lượng phải từ 1 đến 3 giờ",
+    "FIELDS_REQUIRED": "Vui lòng điền đầy đủ thông tin",
+    "CAPACITY_EXCEEDED": "Số người chơi vượt quá sức chứa sân (tối đa {max})",
+    "ADVANCE_2H": "Phải đặt trước ít nhất 2 giờ",
+    "BOOKING_CONFLICT": "Khung giờ đã được đặt",
+    "BOOKING_NOT_FOUND": "Không tìm thấy lịch đặt",
+    "BOOKING_NOT_PENDING": "Lịch đặt không ở trạng thái chờ xác nhận",
+    "BOOKING_ALREADY_CANCELLED": "Lịch đặt đã được hủy trước đó",
+    "CANCEL_24H": "Không thể hủy trong vòng 24 giờ trước giờ bắt đầu",
+    "CANCEL_STARTED": "Không thể hủy lịch đặt đã bắt đầu"
+  }
+}

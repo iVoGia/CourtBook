@@ -1,0 +1,23 @@
+---
+description: gstack Role Council + Full-Stack + Flutter Gate + Governance docs
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# gstack Battle Rules
+
+1. Read `GSTACK_BATTLE_WORKFLOW.md` and `CUSTOM_FRAMEWORK.md`.
+2. BA before design: `docs/BA_BRIEF.md` from `01b-ba-analysis.md`.
+3. Designer before code: `DESIGN.md` + plan-design-review ≥8/10; responsive section required.
+4. Designer may use WebSearch and `/browse` for visual research (3–5 min).
+5. Eng before scaffold: plan-eng-review locks API + SQLite.
+6. Docs required: core (BA_BRIEF, PRD, api-spec, …) + governance (WORKFLOW_MANIFEST, TRACEABILITY, …).
+7. DEMO_ACCOUNTS.md + seed when BA_BRIEF requires login.
+8. api-spec.md must use concrete paths — run `verify-docs.sh` after QA.
+9. Full-stack mandatory: client + Express + SQLite — no mock-only.
+10. Web responsive mandatory: test 375px before Flutter gate.
+11. QA must produce `docs/QA_REPORT.md`.
+12. Handoff: `03e-handoff-scorecard.md` → HANDOFF + WORKFLOW_SCORECARD + FRAMEWORK_EVIDENCE/.
+13. Flutter gate after web QA: AskUserQuestion YES/NO.
+14. PPTX: 3 parts — product / gstack / custom gstack.
+15. Tick FRAMEWORK_CHECKLIST.md per step.
