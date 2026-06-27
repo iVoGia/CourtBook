@@ -1,8 +1,17 @@
-# CourtBook
+<p align="center">
+  <img src="assets/logo.png" alt="CourtBook" width="128">
+</p>
 
-Ứng dụng **đặt sân thể thao** mobile-first: cầu lông, mini bóng đá, tennis. Web responsive, full-stack thật (Express + SQLite), được xây dựng bằng pipeline AI **gstack** với custom layer **Role Council + Full-Stack + Flutter Gate**.
+<h1 align="center">CourtBook</h1>
 
-**Repository:** [github.com/iVoGia/CourtBook](https://github.com/iVoGia/CourtBook)
+<p align="center">
+  Ứng dụng <strong>đặt sân thể thao</strong> mobile-first: cầu lông, mini bóng đá, tennis.<br>
+  Web responsive, full-stack (Express + SQLite), xây bằng pipeline AI <strong>gstack</strong> + <strong>Role Council</strong>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/iVoGia/CourtBook">github.com/iVoGia/CourtBook</a>
+</p>
 
 ---
 
@@ -40,6 +49,7 @@
 
 ```
 CourtBook/
+├── assets/logo.png                ← logo repo (từ AppIcon Flutter)
 ├── README.md                      ← tài liệu chính (file này)
 ├── SPORT_BOOKING_SPEC.md          ← đặc tả sản phẩm
 ├── 02-gstack/                     ← workspace gstack + Role Council
@@ -334,5 +344,12 @@ bash scripts/verify-docs.sh 02-gstack/app
 
 ## Credits
 
+- **Logo / AppIcon** — [`assets/logo.png`](assets/logo.png) (nguồn: Flutter `AppIcon.appiconset`)
 - **gstack** — [garrytan/gstack](https://github.com/garrytan/gstack) by Garry Tan
 - **CourtBook** — xây dựng bằng gstack Role Council Pipeline trong khuôn khổ AI Adapt Battle
+
+### Logo GitHub (tuỳ chọn)
+
+Sau khi push, đặt logo repository trên GitHub: **Settings → General → Social preview** hoặc ảnh đại diện About, dùng URL:
+
+`https://raw.githubusercontent.com/iVoGia/CourtBook/main/assets/logo.png`
